@@ -1,0 +1,9 @@
+# Env file
+.env
+
+# Python
+**/__pycache__
+
+# Test Plugin folders
+**/EconomyShopGUI
+**/VillagerMarket

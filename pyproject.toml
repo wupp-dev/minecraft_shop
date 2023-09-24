@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "minecraft-shop"
+version = "0.1.0"
+description = ""
+authors = ["Hipy Cas <hipycas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "minecraft_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-box = {version = "^7.1.1", extras = ["yaml"]}
+pyyaml = "^6.0.1"
+inquirer = "^3.1.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

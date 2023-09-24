@@ -1,0 +1,2 @@
+SHOP_FOLDER = None
+VILLAGER_FOLDER = None
